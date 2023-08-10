@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[CEMRACS 2023](https://www.quantmetry.com)
+[CEMRACS 2023](http://smai.emath.fr/cemracs/cemracs23/)
