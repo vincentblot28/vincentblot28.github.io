@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vincentblot28.github.io/vblot/sitemap.xml
+Sitemap: https://vincentblot28.github.io/vblot//sitemap.xml
