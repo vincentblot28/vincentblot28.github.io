@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. LISN, CNRS, Paris-Saclay University & Qu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 223</p>
