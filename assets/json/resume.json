@@ -3,15 +3,7 @@
     "name": "Vincent Blot",
     "label": "Ph.D. Candidate",
     "image": "",
-    "email": "vincentblot28@gmail.com",
-    "location": {
-      "address": "32 rue Levert",
-      "postalCode": "75020",
-      "city": "Paris",
-      "country": "France"
-    },
-    "phone": "(+33) 6 16 52 96 34",
-    "url": ""
+    "email": "vincentblot28@gmail.com"
   },
   "work": [
     {
