@@ -2,96 +2,88 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Vincent Blot
+    - name: Email
+      value: vincentblot28@gmail.com
     - name: Languages
-      value: English, German
+      value: English (C1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy
+      institution: Paris-Saclay University, Saclay, France
+      year: Dec. 2022 – Expected Dec. 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <b>Advisors:</b> Didier Lucor, Alessandro Leite, Nicolas J.-B. Brunel
+        - <b>Research Area:</b> Uncertainty quantification for computer vision (classification, semantic segmentation, object detection) using conformal prediction.
+    - title: International Master's in Statistics and Econometrics
+      institution: Toulouse School of Economics (TSE) & Paul Sabatier University, Toulouse — Apprenticeship at Fideliz
+      year: 2018 – 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Deep Learning, Computer Vision, NLP, Big Data, Scoring, Time Series, Data Mining, Graph Theory
+        - Image Recognition, Machine Learning
+    - title: Advanced Master's in Economic Statistics
+      institution: Toulouse School of Economics (TSE) & Paul Sabatier University, Toulouse
+      year: 2017 – 2020
+    - title: Dual Bachelor’s Degree in Economics and Mathematics
+      institution: Toulouse School of Economics (TSE) & Paul Sabatier University, Toulouse — 1st Year of the Advanced Master's in Economic Statistics
+      year: 2017 – 2018
+    - title: Preparatory Class in Literature and Social Sciences (B/L)
+      institution: Lycée Pothier, Orléans, France — Admitted to ENSAI (National School for Statistics and Information Analysis)
+      year: 2015 – 2017
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Scientist / Consultant
+      institution: Quantmetry – Capgemini Invent, Paris, France
+      year: Oct. 2020 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Small fiber neuropathy detection in skin biopsy images
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Assisted diagnosis using computer vision; developed algorithms to support neurologists on histopathology.
+            - Co-inventor of a medical diagnostic device (Patent Application No. 22 00588).
+            - Retrospective and prospective clinical trials (ongoing) to assess performance and clinical relevance.
+        - title: Development of the <a href="https://github.com/scikit-learn-contrib/MAPIE">MAPIE</a> library (conformal prediction)
+          contents:
+            - Focus on multiclass and multilabel tasks.
+            - Presentations at DFUQ workshop @ ICML 2022 and COPA 2023.
+        - title: Work conducted during the PhD
+          contents:
+            - <b>Adaptive recall control for semantic segmentation:</b> Methodology with formal recall guarantees (binary segmentation); dynamic, image-dependent thresholding to boost precision while meeting target recall.
+            - <b>Uncertainty quantification for follicle detection in mouse ovaries:</b> Integrated biological priors (size distributions, spatial structure) to improve UQ reliability; precision-control mechanism for medical imaging tools.
+            - <b>Conformal prediction for Gaussian Processes (regression):</b> Novel cross-conformal approach improving interval adaptability; theoretical insights with coverage guarantees robust to non-Gaussian data.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: Skills
+  type: map
+  contents:
+    - name: Software & Libraries
+      value: Python (Keras, TensorFlow, PyTorch, OpenCV, pandas, NumPy, scikit-learn), R
+    - name: Tools
+      value: Bash, Git
+    - name: English
+      value: C1 (TOEFL 93/120)
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "<b>Automatically Adaptive Conformal Risk Control</b>. Vincent Blot, Anastasios N. Angelopoulos, Michael I. Jordan, Nicolas J.-B. Brunel. Proceedings of AISTATS 2025 (Poster). <a href='https://openreview.net/forum?id=zO46aYZqrG'>Link</a>."
+        - "<b>Efficient Precision Control in Object Detection Models for Enhanced and Reliable Ovarian Follicle Counting</b>. V. Blot, C.H. Sudre, R. Mehta, C. Ouyang, C. Qin, M. Rakic, W.M. Wells. In: UNSURE 2024 (LNCS 15167), Springer, 2025. <a href='https://doi.org/10.1007/978-3-031-73158-7_17'>DOI</a>."
+        - "<b>Conformal Approach to Gaussian Process Surrogate Evaluation with Marginal Coverage Guarantees</b>. Edgar Jaber, Vincent Blot, Nicolas J. B. Brunel, Vincent Chabridon, Emmanuel Remy, Bertrand Iooss, Didier Lucor, Mathilde Mougeot, Alessandro Leite. <i>Journal of Machine Learning for Modeling and Computing</i>, 2025, Vol. 6, No. 3, pp. 37–68. ISSN 2689-3967."
+    - year: 2023
+      items:
+        - "<b>Flexible and Systematic Uncertainty Estimation with Conformal Prediction via the MAPIE Library</b>. Thibault Cordier, Vincent Blot, Louis Lacombe, Thomas Morzadec, Arnaud Capitaine, Nicolas Brunel. Proceedings of the 12th COPA (2023), pp. 549–581. <a href='https://proceedings.mlr.press/v204/cordier23a.html'>Link</a>."
+    - year: 2022
+      items:
+        - "<b>MAPIE: An Open-Source Library for Distribution-Free Uncertainty Quantification</b>. Vianney Taquet, Vincent Blot, Thomas Morzadec, Louis Lacombe, Nicolas Brunel. arXiv:2207.12274. <a href='https://arxiv.org/abs/2207.12274'>Link</a>."
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/scikit-learn-contrib/MAPIE">MAPIE</a>
+      year: 2022–Present
+      description: Distribution-free uncertainty quantification for regression and classification (scikit-learn compatible).
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
