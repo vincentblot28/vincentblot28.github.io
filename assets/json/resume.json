@@ -1,51 +1,117 @@
 {
   "basics": {
     "name": "Vincent Blot",
-    "label": "Ph.D Candidate",
+    "label": "Ph.D. Candidate",
     "image": "",
-    "email": "vincentblot28@gmail.com"
+    "email": "vincentblot28@gmail.com",
+    "location": {
+      "address": "32 rue Levert",
+      "postalCode": "75020",
+      "city": "Paris",
+      "country": "France"
+    },
+    "phone": "(+33) 6 16 52 96 34",
+    "url": ""
   },
   "work": [
     {
-      "name": "Quantmetry",
-      "position": "Data Scientist and PhD candidate",
-      "startDate": "2020-10-04",
+      "name": "Quantmetry – Capgemini Invent",
+      "position": "Data Scientist and PhD Candidate",
+      "location": "Paris, France",
+      "startDate": "2020-10-01",
       "endDate": "Present",
       "highlights": [
-        "Development of uncertainty quantification tools using conformal predictions and bayesian deep learning for Computer Vision tasks. I worked worked on calibration of Object Detection models, Conformal predictions applied to Object Detection and Conformal Predictions applied to image classification.",
-        "Development of the MAPIE library for Conformal Predictions mostly focusing on the development of the multiclass and multilabel tasks. This project was presented to the Distribution Free Uncertainty Quantification (DFUQ) workshop at ICML 2022 ",
-        "Innerve Project for assisted diagnosis using Computer Vision tools on skin biopsy images. This project uses a combination of classifcal computer vision tools, semantic segmentation tasks and object detection. I am also one of the co-inventors of the patent for medical diagnostic device (patent N° FR3132145)"
+        "Small fiber neuropathy detection in skin biopsy images: developed algorithms for assisted diagnosis, co-inventor of diagnostic device (Patent Application No. 22 00588), and participation in retrospective/prospective clinical trials.",
+        "Development of the MAPIE library for Conformal Prediction (focus on multiclass and multilabel tasks); presented at DFUQ workshop (ICML 2022) and COPA 2023.",
+        "Adaptive recall control for semantic segmentation: methodology providing recall guarantees and dynamic thresholding.",
+        "Uncertainty quantification for follicle detection in mouse ovaries: integrated biological priors to improve reliability.",
+        "Novel conformal prediction methods for Gaussian Processes regression with robust theoretical coverage guarantees."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Pothier highschool, 45000 Orléans",
-      "area": "Literature and Social Sciences",
-      "studyType": "Preparatory class",
+      "institution": "Lycée Pothier, Orléans",
+      "area": "Literature and Social Sciences (B/L)",
+      "studyType": "Preparatory Class",
       "startDate": "2015-09-01",
       "endDate": "2017-07-01"
     },
     {
-      "institution": "Toulouse School of Economics, 31000 Toulouse",
+      "institution": "Toulouse School of Economics (TSE) & Paul Sabatier University, Toulouse",
       "area": "Econometrics and Statistics",
       "studyType": "Undergraduate and Master",
       "startDate": "2017-09-01",
       "endDate": "2020-07-01",
-      "courses": "Deep Learning, Computer Vision, NLP, Big Data, Scoring, Times Series, Data Mining, Graph Theory "
+      "courses": [
+        "Deep Learning",
+        "Computer Vision",
+        "NLP",
+        "Big Data",
+        "Scoring",
+        "Time Series",
+        "Data Mining",
+        "Graph Theory"
+      ]
     },
     {
-      "institution": "STIC Doctoral School, Paris-Saclay University",
+      "institution": "Paris-Saclay University, STIC Doctoral School",
       "area": "Mathematics and Informatics",
-      "studyType": "PhD",
+      "studyType": "PhD in Computer Science / Applied Mathematics",
       "startDate": "2022-12-01",
       "endDate": "Present"
     }
   ],
   "certificates": [],
-  "publications": [],
-  "skills": [],
+  "publications": [
+    {
+      "name": "Automatically Adaptive Conformal Risk Control",
+      "publisher": "AISTATS 2025",
+      "releaseDate": "2025",
+      "url": "https://openreview.net/forum?id=zO46aYZqrG",
+      "summary": "Vincent Blot, A.N. Angelopoulos, M.I. Jordan, N.J.-B. Brunel. Poster session."
+    },
+    {
+      "name": "Efficient Precision Control in Object Detection Models for Enhanced and Reliable Ovarian Follicle Counting",
+      "publisher": "UNSURE 2024, LNCS 15167, Springer",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1007/978-3-031-73158-7_17",
+      "summary": "V. Blot, C.H. Sudre, R. Mehta, et al."
+    },
+    {
+      "name": "Conformal Approach to Gaussian Process Surrogate Evaluation with Marginal Coverage Guarantees",
+      "publisher": "Journal of Machine Learning for Modeling and Computing",
+      "releaseDate": "2025",
+      "summary": "Edgar Jaber, Vincent Blot, N.J.-B. Brunel, et al. Vol. 6, No. 3, pp. 37–68."
+    },
+    {
+      "name": "Flexible and Systematic Uncertainty Estimation with Conformal Prediction via the MAPIE Library",
+      "publisher": "COPA 2023",
+      "releaseDate": "2023",
+      "url": "https://proceedings.mlr.press/v204/cordier23a.html",
+      "summary": "T. Cordier, V. Blot, L. Lacombe, T. Morzadec, A. Capitaine, N. Brunel."
+    },
+    {
+      "name": "MAPIE: An Open-Source Library for Distribution-Free Uncertainty Quantification",
+      "publisher": "arXiv",
+      "releaseDate": "2022",
+      "url": "https://arxiv.org/abs/2207.12274",
+      "summary": "V. Taquet, V. Blot, T. Morzadec, L. Lacombe, N. Brunel."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": ["Python", "R", "Bash", "Git"]
+    },
+    {
+      "name": "Python Libraries",
+      "level": "",
+      "keywords": ["Keras", "TensorFlow", "PyTorch", "OpenCV", "pandas", "NumPy", "scikit-learn"]
+    }
+  ],
   "languages": [
     {
       "language": "French",
@@ -53,10 +119,17 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "C1 (TOEFL 93/120)"
     }
   ],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "MAPIE",
+      "description": "Open-source Python library for distribution-free uncertainty quantification compatible with scikit-learn.",
+      "url": "https://github.com/scikit-learn-contrib/MAPIE",
+      "keywords": ["Conformal Prediction", "Uncertainty Quantification", "Machine Learning"]
+    }
+  ]
 }
